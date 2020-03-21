@@ -1,0 +1,115 @@
+.translit-form {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	font-family: Arial;
+	width: 100%;
+	color: white;
+	text-shadow: 1px 1px 3px #000;
+	text-align: center;
+}
+
+.wrapper {
+	background-color: #001580;
+	padding: 10px 20px 20px 20px;
+	border-radius: 10px;
+	box-shadow: 2px 2px 4px #000
+}
+
+#button {
+	background-color: #6E00A1;
+	border-style: none;
+	box-shadow: 1px 1px 1px #000;
+	text-shadow: 1px 1px 3px #000;
+	border-radius: 5px;
+	padding: 5px;
+	color: white;
+}
+
+#result_wrapper{
+	display: none;
+}
+
+#result_box {
+	display: block;
+	margin: 0 auto;
+	transition: all 0.3s ease 0s;
+	border: solid 3px #6E00A1;
+	max-width: 250px;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.cats {
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+}
+
+.big-cat{
+	display: block;
+	position: absolute;
+	top: 15%;
+	right: 25%;
+}
+
+.hide {
+	display: none;
+}
+
+.form-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.form {
+	text-align: center;
+	width: 20%;
+	background-color: #001580;
+	padding: 0px 10px 20px 10px;
+	border-radius: 10px;
+	box-shadow: 2px 2px 4px #000;
+	color: white;
+	position: absolute;
+	top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-family: Arial;
+	color: white;
+	text-shadow: 1px 1px 3px #000;
+	text-align: center;
+}
+
+.form input {
+	margin: 10px;
+}
+
+.form button {
+	margin-top: 10px;
+	background-color: #6E00A1;
+	border-style: none;
+	box-shadow: 1px 1px 1px #000;
+	text-shadow: 1px 1px 3px #000;
+	border-radius: 5px;
+	padding: 5px;
+	color: white;
+}
+
+.hide-form {
+	display: none;
+}
+
+.contact-button {
+	position: absolute;
+	right: 10%;
+	margin-top: 10px;
+	background-color: #6E00A1;
+	border-style: none;
+	box-shadow: 1px 1px 1px #000;
+	text-shadow: 1px 1px 3px #000;
+	border-radius: 5px;
+	padding: 5px;
+	color: white;
+}
